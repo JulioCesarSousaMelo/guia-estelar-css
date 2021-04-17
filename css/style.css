@@ -52,4 +52,13 @@ strong {
     color: red;
 }
 
+/* Aula 07 - A cascata */ 
+
+h1 {
+    color: red;
+}
+
+h1 {
+    color: yellow; /* Esse atributo que o browser vai usar no elemento H1 */
+}
 
