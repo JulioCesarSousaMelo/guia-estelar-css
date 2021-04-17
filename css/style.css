@@ -3,6 +3,7 @@
 /* Assim é um comentário básico*/
 
 /* Aula 03 - Anatomia */
+
 h1{
     color: blue;
 }
@@ -28,6 +29,13 @@ h1, h2 {
     margin: 40px;
 }
 
+
 /* Aula 05 - Box Model */
+
+h1 {
+    border: 1px solid red;
+    margin: 200px;
+    padding: 60px;
+}
 
 
