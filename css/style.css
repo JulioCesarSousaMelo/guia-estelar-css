@@ -1,16 +1,33 @@
-/* 
-Aula 02 - 
-Comentário Básico 
-*/
+/* Aula 02 - Comentário Básico */
 
-/* 
-Aula 03 - 
-Anatomia
+/* Assim é um comentário básico*/
 
+/* Aula 03 - Anatomia */
 h1{
     color: blue;
 }
 
-*/
+
+/* Aula 04 - Seletores */
+
+h1, h2 {
+    color: green;
+    font-size: 60px;
+    background: gray;
+}
+
+* {
+    margin: 0;
+}
+
+#container{
+    width: 200px;
+}
+
+.m-40{
+    margin: 40px;
+}
+
+/* Aula 05 - Box Model */
 
 
