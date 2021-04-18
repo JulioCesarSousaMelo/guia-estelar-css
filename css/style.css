@@ -112,19 +112,33 @@ h1 {
 
 */
 
-/* Aula 10 - At rules */
+/* Aula 10 - At rules 
 
 @import "http://localcom/style.css";
 
 @media  (min-width: 500px ){
-    /* rules here */
+     rules here 
 }
 
 @font-face {
-    /* rules here */
+     rules here 
 }
 
 @keyframes nameofanimation{
-    /* rules here */
+     rules here 
 }
 
+*/
+
+/* Aula 11 - Shorthand */
+
+h1 {
+    background-color: #000;
+    background-image: url(images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+h1 {
+    background: #000 url(images/bg.gif) no-repeat left top;
+}
