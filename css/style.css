@@ -130,7 +130,7 @@ h1 {
 
 */
 
-/* Aula 11 - Shorthand */
+/* Aula 11 - Shorthand 
 
 h1 {
     background-color: #000;
@@ -141,4 +141,15 @@ h1 {
 
 h1 {
     background: #000 url(images/bg.gif) no-repeat left top;
+}
+
+*/
+
+/* Aula 12 - Funções */
+
+@import url("http://ulaqui.com/style.css");
+
+{
+    color: rbg(255, 0, 100);
+    width: calc(100% - 10px);
 }
