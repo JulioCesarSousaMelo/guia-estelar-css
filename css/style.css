@@ -33,7 +33,7 @@ h1, h2 {
 */
 
 
-/* Aula 05 - Box Model */
+/* Aula 05 - Box Model 
 
 h1 {
     border: 1px solid red;
@@ -41,9 +41,9 @@ h1 {
     padding: 60px;
 }
 
+*/
 
-
-/* Aula 06 - Adicionando CSS  */
+/* Aula 06 - Adicionando CSS 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
@@ -56,9 +56,9 @@ strong {
     color: red;
 }
 
+*/
 
-
-/* Aula 07 - A cascata */ 
+/* Aula 07 - A cascata 
 
 h1 {
     color: red;
@@ -68,9 +68,9 @@ h1 {
     color: yellow;  Esse atributo que o browser vai usar no elemento H1 
 }
 
+*/ 
 
-
-/* Aula 08 - Especificidade */
+/* Aula 08 - Especificidade 
 
 #my-title, 
 #my-title strong{
@@ -89,9 +89,9 @@ h1 {
     color: green;
 }
 
+*/
 
-
-/* Aula 09 - Regra important*/
+/* Aula 09 - Regra important
 
 #my-title, 
 #my-title strong{
@@ -109,3 +109,22 @@ h1 {
 * {
     color: green;
 }
+
+*/
+
+/* Aula 10 - At rules */
+
+@import "http://localcom/style.css";
+
+@media  (min-width: 500px ){
+    /* rules here */
+}
+
+@font-face {
+    /* rules here */
+}
+
+@keyframes nameofanimation{
+    /* rules here */
+}
+
