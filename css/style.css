@@ -70,7 +70,7 @@ h1 {
 
 */ 
 
-/* Aula 08 - Especificidade 
+/* Aula 08 - Especificidade */
 
 #my-title, 
 #my-title strong{
@@ -88,6 +88,4 @@ h1 {
 * {
     color: green;
 }
-
-*/
 
