@@ -2,14 +2,15 @@
 
 /* Assim é um comentário básico*/
 
-/* Aula 03 - Anatomia */
+/* Aula 03 - Anatomia 
 
 h1{
     color: blue;
 }
 
+*/
 
-/* Aula 04 - Seletores */
+/* Aula 04 - Seletores 
 
 h1, h2 {
     color: green;
@@ -29,8 +30,10 @@ h1, h2 {
     margin: 40px;
 }
 
+*/
 
-/* Aula 05 - Box Model */
+
+/* Aula 05 - Box Model 
 
 h1 {
     border: 1px solid red;
@@ -38,8 +41,9 @@ h1 {
     padding: 60px;
 }
 
+*/
 
-/* Aula 06 - Adicionando CSS*/ 
+/* Aula 06 - Adicionando CSS 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
@@ -52,13 +56,38 @@ strong {
     color: red;
 }
 
-/* Aula 07 - A cascata */ 
+*/
+
+/* Aula 07 - A cascata 
 
 h1 {
     color: red;
 }
 
 h1 {
-    color: yellow; /* Esse atributo que o browser vai usar no elemento H1 */
+    color: yellow;  Esse atributo que o browser vai usar no elemento H1 
 }
+
+*/ 
+
+/* Aula 08 - Especificidade 
+
+#my-title, 
+#my-title strong{
+    color: gray;
+}
+
+.title {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+* {
+    color: green;
+}
+
+*/
 
