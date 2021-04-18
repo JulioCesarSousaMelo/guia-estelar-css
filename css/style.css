@@ -156,9 +156,22 @@ h1 {
 
 */
 
-/* Aula 14 - Cuidados com a escrita */
+/* Aula 14 - Cuidados com a escrita 
 
 p {
     margin: 0 auto;
     padding-left: 15px;
 }
+
+*/
+
+/* Aula 15 - Vendor Prefixes 
+
+p {
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+}
+
+*/
